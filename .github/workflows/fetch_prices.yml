@@ -28,3 +28,4 @@ jobs:
           git add data/prices.json
           git diff --quiet && git diff --staged --quiet || git commit -m "Auto-update prices"
           git push
+ 
