@@ -44,4 +44,4 @@ def main():
     print(f"Saved {len(prices)} coins")
 
 if __name__ == "__main__":
-    main()
+    main() 
