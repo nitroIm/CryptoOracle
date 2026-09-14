@@ -1,25 +1,25 @@
 {
-  "updated_at": "2026-09-14T08:03:23.915452+00:00",
+  "updated_at": "2026-09-14T15:01:46.056531+00:00",
   "count": 4,
   "prices": {
     "BTC": {
-      "price": 77853,
-      "change_24h": 0.86,
+      "price": 78500,
+      "change_24h": 1.71,
       "source": "coingecko"
     },
     "ETH": {
-      "price": 2521.97,
-      "change_24h": 0.08,
+      "price": 2501.79,
+      "change_24h": 0.44,
       "source": "coingecko"
     },
     "BNB": {
-      "price": 724.64,
-      "change_24h": 0.29,
+      "price": 721.47,
+      "change_24h": 0.49,
       "source": "coingecko"
     },
     "SOL": {
-      "price": 101.58,
-      "change_24h": 0.72,
+      "price": 101.61,
+      "change_24h": 1.07,
       "source": "coingecko"
     }
   }

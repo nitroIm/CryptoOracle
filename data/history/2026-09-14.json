@@ -56,5 +56,30 @@
         "source": "coingecko"
       }
     }
+  },
+  {
+    "ts": "2026-09-14T15:01:46.056531+00:00",
+    "data": {
+      "BTC": {
+        "price": 78500,
+        "change_24h": 1.71,
+        "source": "coingecko"
+      },
+      "ETH": {
+        "price": 2501.79,
+        "change_24h": 0.44,
+        "source": "coingecko"
+      },
+      "BNB": {
+        "price": 721.47,
+        "change_24h": 0.49,
+        "source": "coingecko"
+      },
+      "SOL": {
+        "price": 101.61,
+        "change_24h": 1.07,
+        "source": "coingecko"
+      }
+    }
   }
 ]
