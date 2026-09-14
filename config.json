@@ -1,8 +1,9 @@
 {
-  "crypto_symbols": [
-    "BTC", "ETH", "BNB", "SOL", "XRP", "ADA", "DOGE",
-    "AVAX", "DOT", "MATIC", "LINK", "TRX", "LTC", "SHIB",
-    "UNI", "ATOM", "ETC", "XLM", "NEAR", "APT", "ARB"
-  ],
-  "fiat_symbols": ["EUR", "RUB", "GBP"]
+  "crypto_symbols": ["BTC", "ETH", "BNB", "SOL", "XRP", "ADA", "DOGE", "AVAX", "DOT", "MATIC", "LINK", "TRX", "LTC", "SHIB", "UNI", "ATOM", "ETC", "XLM", "NEAR", "APT", "ARB"],
+  "analysis": {
+    "anomaly_threshold_1h": 3.0,
+    "rsi_period": 14,
+    "rsi_overbought": 70,
+    "rsi_oversold": 30
+  }
 }
