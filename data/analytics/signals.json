@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-09-14T02:38:58.336548+00:00",
+  "generated_at": "2026-09-14T08:03:23.915452+00:00",
   "analysis": {
     "BTC": {
-      "price": 77520,
-      "change_24h": 0.34,
+      "price": 77853,
+      "change_24h": 0.86,
       "change_1h": 0,
       "rsi": null,
       "signal": "NO_DATA",
@@ -11,8 +11,8 @@
       "source": "coingecko"
     },
     "ETH": {
-      "price": 2502.82,
-      "change_24h": -0.75,
+      "price": 2521.97,
+      "change_24h": 0.08,
       "change_1h": 0,
       "rsi": null,
       "signal": "NO_DATA",
@@ -20,8 +20,8 @@
       "source": "coingecko"
     },
     "BNB": {
-      "price": 722.89,
-      "change_24h": -0.69,
+      "price": 724.64,
+      "change_24h": 0.29,
       "change_1h": 0,
       "rsi": null,
       "signal": "NO_DATA",
@@ -29,8 +29,8 @@
       "source": "coingecko"
     },
     "SOL": {
-      "price": 100.81,
-      "change_24h": -1.13,
+      "price": 101.58,
+      "change_24h": 0.72,
       "change_1h": 0,
       "rsi": null,
       "signal": "NO_DATA",
