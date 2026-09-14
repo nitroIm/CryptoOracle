@@ -1,5 +1,34 @@
 {
-  "updated_at": "2026-09-14 00:36:57 UTC",
-  "count": 0,
-  "prices": {}
+  "updated_at": "2026-09-14T02:15:01.127761+00:00",
+  "source": "coingecko",
+  "prices": [
+    {
+      "symbol": "BTC",
+      "name": "Bitcoin",
+      "price_usd": 77309,
+      "change_24h": 0.04762,
+      "market_cap": 1552002627262
+    },
+    {
+      "symbol": "ETH",
+      "name": "Ethereum",
+      "price_usd": 2502.83,
+      "change_24h": -0.81384,
+      "market_cap": 305254127859
+    },
+    {
+      "symbol": "BNB",
+      "name": "BNB",
+      "price_usd": 720.78,
+      "change_24h": -1.01772,
+      "market_cap": 96013682778
+    },
+    {
+      "symbol": "SOL",
+      "name": "Solana",
+      "price_usd": 100.63,
+      "change_24h": -1.51929,
+      "market_cap": 59012501522
+    }
+  ]
 }
