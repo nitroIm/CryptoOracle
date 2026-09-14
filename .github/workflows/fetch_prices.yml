@@ -23,13 +23,16 @@ jobs:
       - name: Install dependencies
         run: pip install requests
 
-      - name: Run script
+      - name: Run fetch script
         run: python scripts/fetch_prices.py
+
+      - name: Run analyze script
+        run: python scripts/analyze_data.py
 
       - name: Commit and Push
         run: |
           git config --global user.name github-actions[bot]
           git config --global user.email github-actions[bot]@users.noreply.github.com
           git add .
-          git diff --quiet && git diff --staged --quiet || git commit -m "Update crypto prices"
+          git diff --quiet && git diff --staged --quiet || git commit -m "Update crypto data and signals"
           git push
