@@ -1,0 +1,8 @@
+{
+  "crypto_symbols": [
+    "BTC", "ETH", "BNB", "SOL", "XRP", "ADA", "DOGE",
+    "AVAX", "DOT", "MATIC", "LINK", "TRX", "LTC", "SHIB",
+    "UNI", "ATOM", "ETC", "XLM", "NEAR", "APT", "ARB"
+  ],
+  "fiat_symbols": ["EUR", "RUB", "GBP"]
+}
