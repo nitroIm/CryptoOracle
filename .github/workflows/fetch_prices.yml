@@ -1,15 +1,42 @@
-- name: Commit and Push
+name: Fetch Crypto Prices
+
+on:
+  schedule:
+    - cron: '*/15 * * * *'
+  workflow_dispatch:
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Run fetch script
+        run: python scripts/fetch_prices.py
+
+      - name: Run analyze script
+        run: python scripts/analyze_data.py
+
+      - name: Commit and Push
         run: |
           git config --global user.name github-actions[bot]
           git config --global user.email github-actions[bot]@users.noreply.github.com
-          echo ">>> Files in data/:"
-          ls -la data/ || echo "no data dir"
           git add -A
-          git status
           if git diff --staged --quiet; then
-            echo ">>> No changes to commit"
+            echo "No changes to commit"
           else
-            git commit -m "Update crypto data and signals"
+            git commit -m "Update crypto data"
             git push
-            echo ">>> Pushed"
           fi
